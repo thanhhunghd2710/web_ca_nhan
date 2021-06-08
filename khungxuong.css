@@ -1,0 +1,107 @@
+.tieude
+{
+	text-align: justify-all;
+	font-size: 20px;
+	width: auto;
+	height: 90px;
+	/*background-color: #40FF00;*/
+	font-family: tahoma;
+	border-width: 10px;
+	border-color: #FAAC58;
+	border-style: solid;
+	border:1px solid gray;
+        padding:autopx autopx;
+        /*font-size:30px;*/
+        background-image:url(https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-creative-irregular-geometry-stitching-banner-background-image_51433.jpg);
+        background-color:#eee;
+        background-blend-mode: 50%;
+        border-image: initial;
+        border-color: #0B0B3B;
+        border-width: 5px;
+
+}
+h1
+{
+	color: #10107F;
+	text-align: center;
+	/*margin-top: 20px;*/
+	margin-bottom: 20px;
+	border-style: outset;
+
+}
+/*.youtube
+{	
+	float: left;
+	text-align: center;
+	width: 300px;
+	height: 300px;
+	background-color: #FE642E;
+}*/
+/*.facebook
+{
+	float: right;
+	text-align: center;
+	width: 300px;
+	height: 300px;
+	background-color: #00BFFF;
+
+}*/
+.anhinstagram
+{
+	margin-top: 30px;
+}
+#anhyoutube
+{
+	width: 300px;
+	height: 300px;
+}
+#anhfacebook
+{
+	width: 300px;
+	height: 300px;
+
+}
+#anhinstagram
+{
+	width: 300px;
+	height: 300px;
+}
+#anhzalo
+{
+	width: 300px;
+	height: 300px;
+}
+.khoi1
+{
+	float: left;
+	text-align: center;
+	width: 300px;
+	height: 300px;
+	background-color: #00BFFF;
+	margin-top: 30px;
+}
+.khoi2
+{
+	float: right;
+	text-align: center;
+	width: 300px;
+	height: 300px;
+	background-color: #00BFFF;
+	margin-top: 30px;
+}
+#SDT
+{
+	display: none;
+/*	ẩn màn hình*/
+	position: absolute;
+
+
+}
+.zalo
+{
+	position: relative;
+}
+/*.zalo:hover
+{
+
+}*/
