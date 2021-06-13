@@ -13,8 +13,8 @@
         padding:autopx autopx;
         /*font-size:30px;*/
         background-image:url(https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-creative-irregular-geometry-stitching-banner-background-image_51433.jpg);
-        background-color:#eee;
-        background-blend-mode: 50%;
+/*        background-color:#eee;*/
+/*        background-blend-mode: 50%;*/
         border-image: initial;
         border-color: #0B0B3B;
         border-width: 5px;
@@ -31,18 +31,57 @@ h1
 }
 h2
 {
+
+	margin-left: 350px;
 	color: #070719;
-	font-size: 20px;
+	font-size: 25px;
 	font-family: tahoma;
+}
+.danhmucgioithieu
+{
+	margin-left: 300px;
+	font-size: 20px;
+
+}
+.khoigiua
+{
+	background-image: url(https://kenh14cdn.com/2020/9/25/hinh-nen-iphone-11-1600990116056809485952.jpg);
+	width: auto;
+	height: 1000px;
+
+}
+.footer
+{
+	text-align: center;
+	margin-top: 600px;
+/*	border-width: 10px;
+	border-color: #0404B4;*/
+	color: #0404B4;
+	font-family: tahoma;
+}
+.noidungnhap
+{
+	width: 500px;
+	height: 30px;
+	border-radius: 50px;
+	text-align: center;
 }
 .nutguicauhoi
 {
-	border-style: solid;
+	border-radius: 20px ;
 	background-color: #01DF01;
+	height: 30px;
 }
 .aa
 {
+	width: auto;
+	height: 30px;
 	text-align: center;
+}
+.cunghoangdao
+{
+	font-size: 15px;
+	font-family: inherit;
 }
 /*.youtube
 {	
@@ -72,11 +111,13 @@ h2
 }
 #anhyoutube
 {
+	border-radius: 30px;
 	width: 300px;
 	height: 300px;
 }
 #anhfacebook
-{
+{ 
+	border-radius: 30px;
 	width: 300px;
 	height: 300px;
 
@@ -88,6 +129,8 @@ h2
 }
 #anhzalo
 {
+	border-radius: 30px;
+
 	width: 300px;
 	height: 300px;
 }
