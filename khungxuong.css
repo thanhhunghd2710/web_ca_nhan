@@ -1,7 +1,7 @@
 .tieude
 {
 	text-align: justify-all;
-	font-size: 20px;
+	font-size: 15px;
 	width: auto;
 	height: 90px;
 	/*background-color: #40FF00;*/
@@ -29,6 +29,21 @@ h1
 	border-style: outset;
 
 }
+h2
+{
+	color: #070719;
+	font-size: 20px;
+	font-family: tahoma;
+}
+.nutguicauhoi
+{
+	border-style: solid;
+	background-color: #01DF01;
+}
+.aa
+{
+	text-align: center;
+}
 /*.youtube
 {	
 	float: left;
@@ -46,6 +61,11 @@ h1
 	background-color: #00BFFF;
 
 }*/
+.danhmucgioithieu
+{
+	color: #10107F;
+	font-family: tahoma;	
+}
 .anhinstagram
 {
 	margin-top: 30px;
