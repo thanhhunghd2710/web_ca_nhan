@@ -1,7 +1,9 @@
 body{
     margin: 0%;
+    height: 100%;
     width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
  
 }
 #menutop{
@@ -40,39 +42,23 @@ body{
     margin-top: -2%;
     font-family: 'Akronim';  
 }
-header.sticky{
-    background-color: rgba(255, 255, 255, 0.5);
-    transition: all 1.5s ease-in-out;
-    margin-top: 0%;
-    border-bottom: cornsilk 1px solid;
-    padding: 1px 0px;
- 
-
-}
-header.sticky .topleft{
+header .topleft{
     display: block;
 
 }
-header.sticky #mainmenu li a{
+header #mainmenu li a{
     text-decoration: none;
     color: #000; 
     font-size: 20px;
     
 }
-
-header.sticky #mainmenu .menudanhmuc:hover .danhmuc_down{
-     display: block;
-     background: blueviolet;
-     box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);;
-     transition: all 1.5s ease-in-out;
-}  
+ 
      
-/* #mainmenu .menudanhmuc:hover .danhmuc_down{
+#mainmenu .menudanhmuc:hover .danhmuc_down{
     display: block;
     background: blueviolet;
     box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);;
-    transition: all 1.5s ease-in-out;
-}   */
+}  
  
 #mainmenu .menudanhmuc:hover a{
    color: violet;
@@ -131,12 +117,11 @@ header.sticky #mainmenu .menudanhmuc:hover .danhmuc_down{
 }
 header{
     display: flex;
-    margin-top: 40%;
-    /* justify-content: space-between; */
+    margin-top: 0%;
     align-items: center;
     text-align: center;
-    border-bottom: cornsilk 10px solid;
-    padding: 70px 0px;  
+    border-bottom: cornsilk 1px solid;
+    padding: 1px 0px;  
 }
 .topright{
     float: right;
@@ -175,28 +160,3 @@ header{
     width: 30%;
     float: left;
 }
-#slideshow {
-    overflow: hidden;
-    height: 1000px;
-    width: 1920px;
-    margin: 0 auto;
-  }
- .slide-wrapper {
-    width: 5760px;
-    -webkit-animation: slide 20s ease infinite;
-  }
- .slide {
-    float: left;
-    height:1000px;
-    width: 1920px;
-  }
- @-webkit-keyframes slide {
-    20% {margin-left: 0px;}
-    30% {margin-left: -1920px;}
-    50% {margin-left: -1920px;}
-    60% {margin-left: -3840px;}
-    80% {margin-left: -3840px;}
-  }
-  .nd{
-      text-align: center;
-  }
