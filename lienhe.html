@@ -5,9 +5,9 @@
 <!-- 	liên kết html với css -->
 	<link rel="stylesheet" type="text/css" href="header.css">
 <!-- 	tạo icon cho web  -->
-	<link rel="icon" href="imgico/instagramico.png">
+	<link rel="icon" href="imgico/call.png">
 <!-- tiêu đê web -->
-	<title>Thành_Hưng's Instagram </title>
+	<title>Liên hệ </title>
 </head>
 <style>
 	body{
@@ -18,7 +18,7 @@
 		background-size: 150% 130%;
 	}
 	header{
-		background-color: rgba(235, 156, 66, 0.8);
+		background-color: rgba(209, 99, 236, 0.8);
 	}
 	.main-content{
 		width: 100%;
@@ -27,12 +27,12 @@
 	
 	}
 	.content{
-	
+		font-size: 1.3rem;
 		width: 50%;
 		margin-top: 10%;
 		margin-right: 5%;
 		box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgb(81, 84, 99);
-		text-align: center;
+		display: block;
 		border-radius: 7px;
 	
 	}
@@ -51,10 +51,10 @@
 	}
 
 	.pic-picture{
-		width: 42%;
+		width: 30%;
 		border-radius: 50%;
 		margin-top: 10rem;
-		margin-left: -6rem;
+		margin-left: -5rem;
 		/* box-shadow: 0 10rem 20rem rgba(242, 248, 244, 0.822), 0 5rem 6rem rgba(124, 100, 100, 0.582); */
 		box-shadow: 2.5rem 1rem 1rem 1rem rgba(85, 90, 114, 0.466);
 		float:left;
@@ -64,6 +64,11 @@
 	}
 	.content{
 		float: right;
+	}
+	b{
+		font-size: 1.5rem;
+		color: rgb(2, 31, 126);
+
 	}
 </style>
 <body>
@@ -89,7 +94,7 @@
 						<li class="menudanhmuc"><a href="#">Social Network</a>
 							<nav class="danhmuc_down">
 								<li class="con"><a href="Facebook.html" title="facebook">Facebook</a></li>
-								<li class="con"><a href="#" title="instagram">Instagram</a></li>
+								<li class="con"><a href="instagram.html" title="instagram">Instagram</a></li>
 								<li class="con"><a href="youtube.html" title="youtube">Youtube</a></li>
 								<li class="con"><a href="#" title="tiktok">Tiktok</a></li>
 								<li class="con"><a href="#" title="telegram">Telegram</a></li>
@@ -98,7 +103,7 @@
 							</li>
 						<li class="menugioithieu"><a href="gioithieu.html">Giới thiệu</a></li>
 						<li class="menublog"><a href="Blog.html">Blog</a></li>
-						<li class="menuuser"><a href="lienhe.html">Liên hệ</a></li>
+						<li class="menuuser"><a href="#">Liên hệ</a></li>
 					 
 				 </nav>
 			</div>
@@ -107,10 +112,22 @@
 	
 </div>
 	<div class="main-content">
-		<div class="content"><h2><a class="a-content" href="https://www.instagram.com/thanh_hung_hd/" target="_blank">Thành_Hưng's Instagram</a></h2>
-		<img src="img/previewinsta.PNG" alt="" width="100%"></div>
-
-		<div class="picture"><a href="https://www.instagram.com/thanh_hung_hd/" target="_blank"><img class="pic-picture" src="img/instagram.jpg" alt="" ></a></div>
+		<div class="content">
+			<form>
+				<fieldset>
+				  <legend><b>Thông tin cơ bản 😎:</b></legend>
+				  <input id="one" type="radio" name="items" value="one">
+				  <label for="one">Full name: Nguyễn Thành Hưng</label><br>
+				  <input id="two" type="radio" name="items" value="two">
+				  <label for="two">Ngày sinh: 27/10/2000</label><br>
+				  <input id="three" type="radio" name="items" value="three">
+				  <label for="three">Email: <u>Thanhhunghd2710@gmail.com</u></label>
+				  <input id="four" type="radio" name="items" value="four">
+				  <label for="four">SĐT: <u>0982921027</u></label>
+				</fieldset>
+			  </form>
+		</div>
+		<div class="picture"><a href="#" target="_blank"><img class="pic-picture" src="imgico/phone.png" alt="" ></a></div>
 	</div>
 </body>
 </html>
